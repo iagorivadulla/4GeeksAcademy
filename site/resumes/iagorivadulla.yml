@@ -1,0 +1,148 @@
+
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Iago
+    last_name: Rivadulla
+    
+    # Define yourself in 4-5 words
+    motto: Understanding the world through economics
+    
+    # Focus
+    focus: Data Science & Machine Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Former professional chef with over 7 years of experience, now fully committed to technology and data science. 
+      I’ve completed intensive training in Python and Data Science, learning to analyze data, create visualizations, 
+      and build predictive models. I’m particularly interested in economic systems, simulations, and how complex patterns 
+      emerge from simple rules. I'm currently building my portfolio to showcase my skills and curiosity-driven mindset.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: iagorivadullaact@gmail.com #optional
+    phone: +34 699 451 475 #optional
+    website: https://github.com/iagorivadulla #optional
+    linkedin: https://www.linkedin.com/in/iagorivadulla #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/iagorivadulla
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Economics and Macroeconomics
+
+      - item: Music and Films
+
+      - item: Retro Games
+
+      - item: Systems simulations
+
+# Your previous education
+education:
+    - degree: Chef
+      university: CIFP Ciudad De Leon
+      # optional
+      university_logo: 
+      time: 2015 - 2018
+      details: |
+        
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Professional Chef
+      time: 2018 - Present
+      company: Various Restaurants and Hotels
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Worked in high-pressure kitchen environments as head chef. Developed leadership, organization, team management, 
+        and fast decision-making skills.
+
+        - Managed kitchen teams and shift planning
+        - Designed seasonal menus and optimized ingredient costs
+
+
+    
+      
+
+# Your project portfolio
+projects:
+    intro: >
+      
+
+    assignments:
+      - title: 
+        # optional
+        project_logo:
+        link: "#hook"
+        tagline:
+
+      - title: 
+        # optional
+        project_logo:
+        link: 
+        tagline:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo:
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo:
+        link: 
+        tagline:
+
+skills:
+    toolset:
+      - name: Python
+        level: 80%
+
+      - name: Pandas & Seaborn
+        level: 85%
+
+      - name: Scikit-Learn
+        level: 70%
+
+      - name: MySQL
+        level: 40%
+
+      - name: BeautifulSoup & Web Scraping
+        level: 45%
+
+      - name: Git & GitHub
+        level: 50%
